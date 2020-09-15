@@ -37,7 +37,7 @@ let dayName = daynames[d.getDay()];
      let options = {
          weekday:"long",
          day:"numberic",
-         month:"long"
+         month:"long",
          year:"numeric"
      };
      document.getElementById(
@@ -46,4 +46,4 @@ let dayName = daynames[d.getDay()];
  }catch(e){
      alert("error with code or your browser does not support Locale")
  }
- }
+ 
