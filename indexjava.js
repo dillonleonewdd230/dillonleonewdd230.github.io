@@ -34,6 +34,7 @@ let dayName = daynames[d.getDay()];
  document.getElementById("currentdate").textContent = fulldate;
 
  try {
+     //try
      let options = {
          weekday:"long",
          day:"numberic",
