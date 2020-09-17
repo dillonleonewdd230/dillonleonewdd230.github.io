@@ -26,14 +26,15 @@ let months=
 
 let d = new Date();
 let dayName = daynames[d.getDay()];
- let monthName = months[d.getMonth];
- let year = d.getFullYear;
+ let monthName = months[d.getMonth()];
+ let year = d.getFullYear();
+ let lastMod=document.lastModified;
 
  let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 
- document.getElementById("currentdate").textContent = fulldate;
+ document.getElementById("lastMod").textContent = lastMod;
 
- try {
+/* try {
      //try
      let options = {
          weekday:"long",
@@ -46,5 +47,5 @@ let dayName = daynames[d.getDay()];
      ).textContent=new Date().toLocaleDateString("en-US",options);
  }catch(e){
      alert("error with code or your browser does not support Locale")
- }
+ }*/
  

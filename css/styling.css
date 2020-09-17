@@ -1,0 +1,16 @@
+footer{margin: .5rem;}
+span{font-weight:700;}
+#currentdate {color: rgba(50,50,250,1);}
+body{
+    width:100%;
+}
+header, footer, main{
+    width:80%;
+    margin: 0 auto;
+}
+header{
+    background-color:blue;
+}
+#picture{
+    float: right;
+}
