@@ -1,16 +1,43 @@
-footer{margin: .5rem;}
+/*footer{margin: .5rem;}
 span{font-weight:700;}
-#currentdate {color: rgba(50,50,250,1);}
+#currentdate {color: rgba(50,50,250,1);}*/
 body{
     width:100%;
 }
 header, footer, main{
-    width:80%;
+    width:50%;
+    font-size: 20px;
     margin: 0 auto;
 }
 header{
     background-color:blue;
+    width: 50%;
+    height: 90px;
+    border-radius: 15px;
+    text-align: center;
 }
 #picture{
     float: right;
+    width:245px;
+    height: 250px;
+}
+footer{
+    background-color: blue;
+    border-radius: 15px;
+    text-align: center;
+    color:white;
+}
+#copyright{
+    text-align: center;
+    color: white;
+}
+#lastmod{
+    text-decoration-color: chartreuse;
+}
+#assign{
+    font-size: 40px;
+    text-decoration: underline;
+}
+#link{
+    color:white;
 }

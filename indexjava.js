@@ -33,7 +33,7 @@ let dayName = daynames[d.getDay()];
  let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 
  document.getElementById("lastMod").textContent = lastMod;
-
+ document.getElementById("copyright").textContent = year;
 /* try {
      //try
      let options = {
