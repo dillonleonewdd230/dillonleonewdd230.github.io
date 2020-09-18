@@ -9,6 +9,7 @@ header, footer, main{
 }
 header{
     background-color:blue;
+    color: white;
     width: 50%;
     height: 90px;
     border-radius: 15px;
