@@ -4,39 +4,40 @@ function toggleMenu(){
 
 
 }
-let daynames = 
+const dow = 
 [ 
-"Sunday",
-"Monday",
-"Tuesday",
-"Wednesday",
-"Thurseday",
-"Friday",
-"Saturday"
+'Sunday',
+'Monday',
+'Tuesday',
+'Wednesday',
+'Thurseday',
+'Friday',
+'Saturday'
 ];
-let months= 
+const months= 
 [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December", 
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December' 
 ];
 
-let d = new Date();
-let dayName = daynames[d.getDay()];
- let monthName = months[d.getMonth()];
- let year = d.getFullYear();
- let lastMod=document.lastModified;
+let date = new Date();
+let output = dow[date.getDay()] + ', ' + date.getDate() + ' ' + months[date.getMonth()] + ' '+ date.getFullYear();
 
- let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 
- document.getElementById("lastMod").textContent = lastMod;
- document.getElementById("copyright").textContent = year;
+
+
+
+
+
+ document.getElementById('current-date').innerText = output;
+
