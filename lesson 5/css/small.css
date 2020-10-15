@@ -138,10 +138,10 @@ p{
   .contentbox-forecast{
       display: none;
   }
-  .banner{
+  #banner{
       background-color: orange;
       text-align: center;
-      
+      display: none;
   }
   .contentbox-hero{
        text-align: center;
@@ -156,7 +156,7 @@ p{
  .herodiv{
     margin:10px auto;
     position: relative;
-   border: 1 px dashed black;
+   
    width:100%;
  }
  .summary{
@@ -168,4 +168,3 @@ p{
     padding: .5rem;
     box-shadow: 0 0 30px #777777;
  }
-

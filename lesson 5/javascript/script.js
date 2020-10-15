@@ -41,6 +41,6 @@ let output = dow[date.getDay()] + ', ' + date.getDate() + ' ' + months[date.getM
 
  document.getElementById('current-date').innerText = output;
 
-if (dow==3){
-    document.getElementById("banner")
+if (date.getDay()==5){
+    document.getElementById("banner").style.display="block";
 }
