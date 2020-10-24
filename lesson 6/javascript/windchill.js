@@ -17,7 +17,7 @@ function doInputOutput(){
     var power = Math.pow(s,.16);
     var chillWind= 35.75 + 0.6215 * t - 35.75 * power + .4275 * t * power;
     //makes the decimal only in the tenths place 
-    let digits = 2;
+    let digits = 0;
     let mult = Math.pow(10, digits);
     fin = Math.round(chillWind*mult) / mult;
     
