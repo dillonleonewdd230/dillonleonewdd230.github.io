@@ -1,0 +1,14 @@
+@media only screen and (min-width:1490px){
+    h2{
+        color:white;
+    }
+    #cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        
+        text-align: center;
+        gap: 10px;
+    }
+   
+    }

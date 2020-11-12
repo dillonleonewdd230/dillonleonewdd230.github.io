@@ -1,0 +1,15 @@
+
+@media only screen and (min-width:760px){
+h2{
+    color:red;
+}
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+    text-align: center;
+    gap: 10px;
+}
+
+}
