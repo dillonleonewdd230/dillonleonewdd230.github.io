@@ -1,0 +1,33 @@
+@media only screen and (min-width:760px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+      
+        section {
+            max-width: 600px;
+          margin: .5rem auto;
+            
+          
+            display: flex;
+            flex-wrap: wrap;
+            word-break: break-word;
+        }
+        
+        article {
+          display: flex;
+            flex-direction: row;
+           
+        }
+        
+        article:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        
+    .town-name:nth-child(odd),.motto:nth-child(odd),.found:nth-child(odd),.rain:nth-child(odd),.pop:nth-child(odd){
+        text-align:right;
+        margin: 10px;
+        
+    }
+    
+}
