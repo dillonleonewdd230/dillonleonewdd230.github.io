@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -111.79,
+        "lat": 43.83
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 39.83,
+        "feels_like": 29.89,
+        "temp_min": 37.99,
+        "temp_max": 41,
+        "pressure": 1013,
+        "humidity": 90
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 12.75,
+        "deg": 190,
+        "gust": 21.92
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1605756839,
+    "sys": {
+        "type": 1,
+        "id": 5735,
+        "country": "US",
+        "sunrise": 1605709591,
+        "sunset": 1605743925
+    },
+    "timezone": -25200,
+    "id": 5605242,
+    "name": "Rexburg",
+    "cod": 200
+}

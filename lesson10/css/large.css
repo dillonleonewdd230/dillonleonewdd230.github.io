@@ -1,0 +1,96 @@
+@media only screen and (min-width:64rem){
+
+    
+
+
+
+    nav button {
+        display:none;
+    
+    
+    }
+    nav ul{
+        display: flex;
+        margin-left: 2%;
+        justify-content:center ;
+        align-items: center;
+        
+        
+    
+    }
+    nav ul li{
+        float:left;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        
+        
+        
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0, 0.3);
+        padding: .6rem 1rem;
+        
+        
+        
+    }
+    nav ul.hide {
+        display: block;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        
+    }
+    .article{
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        margin: 20px auto;
+        background-color: #555;
+        width: 100%;
+        height: 250px; 
+    }
+    .cloudy {
+       float: right;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) 
+       }
+       .map{
+           display: block;
+           float: right;
+           
+       }
+       .contentbox-contact{
+           height: 400px;
+       }
+    .contentbox-forecast{
+        align-items: center;
+        
+    }
+    .hero-ph{
+        margin:10px auto;
+        
+        width: 100%;
+        
+       
+ }
+ .herodiv{
+    margin:10px auto;
+    position: relative;
+   
+   width:100%;
+ }
+ 
+  .forecast-table,th{
+     
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    text-align: center;
+  }
+td{
+    background-color:white ;
+    color: black;
+    border-left:1px solid black;
+}
+}
