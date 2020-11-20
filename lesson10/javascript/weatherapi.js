@@ -25,7 +25,7 @@ console.log(requestUrl);
 
 
 const apikey = '486da1b0a4cdd56e253216e446fe8aac';
-const baseURL = 'http://api.openweathermap.org/data/2.5/';
+const baseURL = 'https://api.openweathermap.org/data/2.5/';
 let cityid = '5605242';
 let units = 'imperial';
 // Get current weather data
