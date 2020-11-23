@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="This page is describing weather conditions in Preston Idaho this page includes articles, a five day forecast, and a weather summary">
+    <link rel="stylesheet" href="preston/small.css">
+    <link rel="stylesheet" href="preston/medium.css">
+    <link rel="stylesheet" href="preston/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+   
+    <title>East Idaho Weather-Preston</title>
+
+
+    </head>
+    <body>
+    <header>
+        <img id="picture" src="images/logo.jpg" alt="Logo for East Idaho Weather">
+        <h1>East Idaho Weather</h1>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+
+
+            </ul>
+
+
+        </nav>
+
+
+    </header>
+
+
+    <main>
+        <p id="banner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+        <h2>
+            Preston Idaho
+        </h2>
+        <div class="contentbox-hero">
+            <div class="herodiv">
+            <img class="hero-ph" alt="Picture of Preston Idaho"
+             srcset="images/hero512.jpg 512w,
+             images/hero980.jpg 980w,
+             images/hero1600.jpg 1600w"
+             sizes="(min-width: 1600px) 1600px,
+             (min-width: 512px) 980px"
+                    
+                    src="images/hero512.jpg" 
+                    >
+            <section class="summary"> 
+                <h3>Weather Summary</h3>
+                <p >Currently: <span id="descr"></span></p>
+                <p >High: <span id= "temper"></span>&deg;F</p>
+                <p>Windchill: <span id ="chilly"></span>&deg;F</p>
+                <p>Hummidity: <span id="hum"></span></p>
+                <p >Windspeed: <span id = "speed"></span> MPH</p>
+            </section>
+        </div>
+    </div>
+        <div class="forecast">
+           
+                <div class="forecast-day">
+                    <div class="dow"></div>
+                    <img class ="icon">
+                    <div class="temp"></div>
+                 </div>
+                 <div class="forecast-day">
+                    <div class="dow"></div>
+                    <img class ="icon">
+                    <div class="temp"></div>
+                 </div>
+                 <div class="forecast-day">
+                    <div class="dow"></div>
+                    <img class ="icon">
+                    <div class="temp"></div>
+                 </div>
+                 <div class="forecast-day">
+                    <div class="dow"></div>
+                    <img class ="icon">
+                    <div class="temp"></div>
+                 </div>
+                 <div class="forecast-day">
+                    <div class="dow"></div>
+                    <img class ="icon">
+                    <div class="temp"></div>
+                 </div>
+        </div>
+
+        <div class="article">
+            
+            <img class="cloudy" src="images/cloud.jpg" alt="A stock photo of clouds">
+            <h2>Todays News</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, enim! Error quas ut commodi nemo
+                voluptatem vel temporibus maxime amet consequuntur deserunt, culpa non autem accusantium animi saepe
+                velit eum?</p>
+        </div>
+
+        <div class="contentbox-contact">
+            <img class="map" src="images/map.jpg" alt="General location of East Idaho Weather Preston office">
+            <h2>Contact the Preston office</h2>
+            <ul class="contact">
+                <li>Address: 640 S US-91, Preston Idaho 83263</li>
+                <li>Phone number: 999-999-9999</li>
+                <li>Email: eastIDpreston@EID.org</li>
+            </ul>
+        </div>
+
+
+
+
+    </main>
+    <footer>
+        <span id="current-date"></span>
+
+        |Attributions|
+        |Dillon Leone|
+        <br>
+        &copy; <span id="copyright">East Idaho Weather</span>
+
+
+
+        <script src="javascript/script.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script src="javascript/webfrontload.js"></script>
+   
+   <script src="javascript/weatherapi.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="This page is a gallery of all the wild weather here in East Idaho">
+    <link rel="stylesheet" href="gallery/small.css">
+    <link rel="stylesheet" href="gallery/medium.css">
+    <link rel="stylesheet" href="gallery/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <title>East Idaho Weather-Gallery</title>
+
+
+</head>
+
+<body>
+    <header>
+        <img id="picture" src="images/logo.jpg" alt="Logo for East Idaho Weather">
+        <h1>East Idaho Weather</h1>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="Home.html">Home</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="preston.html">Preston</a></li>
+
+
+            </ul>
+
+
+        </nav>
+
+
+    </header>
+
+
+    <main>
+
+        <h2>
+            Gallery
+        </h2>
+        <div class="gallery">
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/stormHill.jpg'
+                    alt="a random picture">
+                <p>A hill just before a rainstorm hits</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/extremelyColdTrees.jpg'
+                    alt="a random picture">
+                <p>Trees after a blizzard</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/mistyPines.jpg'
+                    alt="a random picture">
+                <p>Pines Condensating</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/islandStorm.jpg'
+                    alt="a random picture">
+                <p>A small patch of land in a lake in a Thunder Storm</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/lightningStorm.png'
+                    alt="a random picture">
+                <p>Lightning Striking a hill</p>
+            </div>
+
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/rainbowField.png'
+                    alt="a random picture">
+                <p>A rainbow over a farming field</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/rainbowIsland.jpg'
+                    alt="a random picture">
+                <p>A storm system about to hit a mass of land</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/moonHill.jpg'
+                    alt="a random picture">
+                <p>A clear night as the moon rises</p>
+            </div>
+            <div class="grid-item"><img src="images/placeholder.jpg" data-src='images/cloudSky.jpg'
+                    alt="a random picture">
+                <p>pictures of a storm system beginning to form</p>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="javascript/imagehandling.js"> </script>
+    <footer>
+        <span id="current-date"></span>
+
+        |Attributions|
+        |Dillon Leone|
+        <br>
+        &copy; <span id="copyright">East Idaho Weather</span>
+
+
+
+        <script src="javascript/script.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="javascript/webfrontload.js"></script>
+    <script src="javascript/windchill.js"></script>
+</body>
+
+</html>
