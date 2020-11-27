@@ -20,19 +20,29 @@ let requestUrl = baseurl + "?" +
 console.log(requestUrl);
 */
 
+let cityId = "";
 
-
+//pagename= document.getElementById("pagename")
+if(document.getElementById('preston')){
+    cityId = 5605242;
+}
+else if(document.getElementById('sodie')){
+    cityId = 5607916;
+}
+else if(document.getElementById('fish')){
+    cityId = 5605242;
+}
 
 
 const apikey = '486da1b0a4cdd56e253216e446fe8aac';
 const baseURL = 'https://api.openweathermap.org/data/2.5/';
-let cityid = '5605242';
+//let cityid = '5605242';
 let units = 'imperial';
 // Get current weather data
 let method = 'weather';
 let apiURL = baseURL +
     method + '?' +
-    'id=' + cityid +
+    'id=' + cityId +
     '&APPID=' + apikey +
     '&units=' + units;
 
@@ -70,7 +80,7 @@ method = "forecast";
 
  apiURL = baseURL +
     method + '?' +
-    'id=' + cityid +
+    'id=' + cityId +
     '&APPID=' + apikey +
     '&units=' + units;
 

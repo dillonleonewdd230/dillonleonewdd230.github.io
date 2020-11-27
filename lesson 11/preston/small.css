@@ -162,9 +162,15 @@ p{
  .summary{
     position: relative;
     
-    background: radial-gradient(green, lightgreen);
+    background: radial-gradient(#4FB286, lightgreen);
     border: 1px solid green;
     padding: .5rem;
     box-shadow: 0 0 30px #777777;
     
  }
+ #anno{
+     margin: 0 auto;
+     background-color: #555;
+    width: 50%;
+    text-align: center;
+}
