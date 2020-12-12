@@ -1,0 +1,62 @@
+{
+	"rentals": [{
+			"Type": "Honda Metro Scooter",
+			"Max": "1",
+			"reservehalf": "$20",
+			"reservefull": "$30",
+			"walkhalf": "$25",
+			"walkfull": "$45",
+			"imgurl":"images/metro150.jpg"
+
+		},
+		{
+			"Type": "Honda Dio Scooter",
+			"Max": "2",
+			"reservehalf": "$30",
+			"reservefull": "$40",
+			"walkhalf": "$35",
+			"walkfull": "$45",
+			"imgurl":"images/dio150.jpg"
+		},
+		{
+			"Type": "Honda PCX150 Scooter",
+			"Max": "2",
+			"reservehalf": "$40",
+			"reservefull": "$50",
+			"walkhalf": "$45",
+			"walkfull": "$55",
+			"imgurl":"images/pcx150.jpg"
+		},
+		{
+			"Type": "Honda Pioneer ATV",
+			"Max": "4",
+			"reservehalf": "$50",
+			"reservefull": "730",
+			"walkhalf": "$60",
+			"walkfull": "$80",
+			"imgurl":"images/pioneer150.jpg"
+
+		},
+		{
+			"Type": "Jeep Wrangler-4 door with AC",
+			"Max": "5",
+			"reservehalf": "$70",
+			"reservefull": "$100",
+			"walkhalf": "$85",
+			"walkfull": "$125",
+			"imgurl":"images/four150.jpg"
+
+		},
+		{
+			"Type": "Jeep Wrangler-2 Door",
+			"Max": "4",
+			"reservehalf": "$60",
+			"reservefull": "$85",
+			"walkhalf": "$70",
+			"walkfull": "$90",
+			"imgurl":"images/two150.jpg"
+
+		}
+
+	]
+}

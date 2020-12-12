@@ -1,0 +1,16 @@
+@media only screen and (min-width:760px){
+
+.forecast{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.forecast-day{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.map{
+   margin:0 auto;
+}
+
+}

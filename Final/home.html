@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description"
+        content="This page is the homepage for scoots rental. Where you can find the perfect day ride for your adventure in Cozumel, Mexico">
+    <link rel="stylesheet" href="home/small.css">
+    <link rel="stylesheet" href="home/medium.css">
+    <link rel="stylesheet" href="home/large.css">
+    <link rel="shortcut icon" href="scootIcon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+   
+    <title>Scoots Rentals</title>
+
+
+    </head>
+    <body>
+    <header>
+        <img id="picture" src="images/scoots.png" alt="Logo for Scoots Rental">
+        <h1>Scoots Rentals</h1>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a  href="rental.html">Rentals</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="reserve.html">Reserve</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+
+
+            </ul>
+
+
+        </nav>
+
+
+    </header>
+    
+    <main>
+
+        <h2 class="home-head">
+            Home 
+        </h2>
+        <img class="hero-ph" alt="Picture of Preston Idaho"
+             srcset="images/coz450.jpg 450w,
+             images/coz512.jpg 980w,
+             images/coz980.jpg 1600w"
+             sizes="(min-width: 1600px) 1600px,
+             (min-width: 780px) 980px"
+                    
+                    src="images/coz300.jpg" 
+                    >
+                    <section class="summary"> 
+                        <h3>Weather in Cozumel</h3>
+                        <p >Currently: <span id="descr"></span></p>
+                        <p >High: <span id= "temper"></span>&deg;F</p>
+                        
+                        <p>Hummidity: <span id="hum"></span>%</p>
+                        <p >Windspeed: <span id = "speed"></span> MPH</p>
+                    </section> 
+                    <div class="forecast">
+           
+                        <div class="forecast-day">
+                            <div class="dow"></div>
+                            <img class ="icon" src="images/placeholder.jpg" alt="icon for weather" >
+                            <div class="temp"></div>
+                         </div>
+                         <div class="forecast-day">
+                            <div class="dow"></div>
+                            <img class ="icon" src="images/placeholder.jpg" alt="icon for weather">
+                            <div class="temp"></div>
+                         </div>
+                         <div class="forecast-day">
+                            <div class="dow"></div>
+                            <img class ="icon" src="images/placeholder.jpg" alt="icon for weather">
+                            <div class="temp"></div>
+                         </div>
+                         <div class="forecast-day">
+                            <div class="dow"></div>
+                            <img class ="icon" src="images/placeholder.jpg" alt="icon for weather">
+                            <div class="temp"></div>
+                         </div>
+                         <div class="forecast-day">
+                            <div class="dow"></div>
+                            <img class ="icon" src="images/placeholder.jpg" alt="icon for weather">
+                            <div class="temp"></div>
+                         </div>
+                </div>
+        
+<div class="welcome">
+    <h2>About Us!</h2>
+    <p>
+        We are a rental and tour service on the island of cozumel! Our job is to make visitors and locals learn about Cozumel and visit many beautful sites on this wounderful island.
+    </p>
+    <h5>Check out our rentals <a href="rental">Here</a></h5>
+</div>
+<div class="rents">
+    <h2>What do We Mainly Rent?</h2>
+    <p>Good question! We mainly rent scooters and jeeps for day usuage. Scooters are for your city explorers and then the jeeps are for your off road adventures it all depends on what you want.</p>
+</div>
+
+
+
+
+
+    </main>
+
+
+    <footer>
+        <h2>Follow Us and Here is Where We are Located!!</h2>
+        <a  class ="footer-img" href="https://www.instagram.com/"><img src="images/insta(1).png" alt="Instagram logo"></a>
+        <a class ="footer-img" href="https://www.twitter.com/"><img src="images/twitter(2).png" alt="Twitter Logo"></a>
+        <a class ="footer-img" href="https://www.facebook.com/"><img src="images/face(1).png" alt="Facebook logo"></a>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.1172685091947!2d-86.95445410367024!3d20.500449831633226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59d97c4bb785%3A0xbf03954c4eeb9ccd!2sAv%20Xel-Ha%20300%2C%20Gonzalo%20Guerrero%2C%2077600%20San%20Miguel%20de%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1607457993173!5m2!1sen!2sus" width="250" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </footer>
+
+<script src="javascript/weatherapi.js"></script>
+    </body>
+    </html>

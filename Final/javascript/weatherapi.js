@@ -1,4 +1,24 @@
+/*const apiKey = "486da1b0a4cdd56e253216e446fe8aac"
 
+const baseurl = "https://api.openweathermap.org/data/2.5/weather"
+
+let cityId = "5604473"
+
+let units = "imperial";
+
+
+let requestUrl = baseurl + "?" +
+    cityId +
+    "&appid" + apiKey +
+    "&units" + units;
+
+
+
+
+
+
+console.log(requestUrl);
+*/
 
 
 
@@ -6,7 +26,7 @@
 
 const apikey = '486da1b0a4cdd56e253216e446fe8aac';
 const baseURL = 'https://api.openweathermap.org/data/2.5/';
-let cityid = '55605242';
+let cityid = '3530103';
 let units = 'imperial';
 // Get current weather data
 let method = 'weather';
@@ -31,8 +51,7 @@ fetch(apiURL)
     document.getElementById('temper').innerText = temp;
 
 
-    let chill = data.main.feels_like;
-    document.getElementById('chilly').innerText = chill;
+    
 
     let wind = data.wind.speed;
     document.getElementById('speed').innerText = wind;
@@ -78,7 +97,7 @@ method = "forecast";
       for (item of list) {
         
          // We only want the forecast for 18:00:00 each day
-         if (item.dt_txt.includes('18:00:00')) {
+         if (item.dt_txt.includes('12:00:00')) {
             // Pull out the day of the week
             let date = new Date(item.dt * 1000);
             forecast_dow[forecast_day_num].innerHTML = DOW[date.getDay()];

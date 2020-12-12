@@ -1,0 +1,105 @@
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fafafa;
+    
+    
+}
+
+nav{
+    background-color: #D91E36;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+
+    width:100%;
+    font-size: 20px;
+    margin: 0 auto;
+    
+    
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    float:none;
+    text-align: center;
+    color: white;
+    border-top: 1px solid rgba(255,255,255,0.8);
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.4);
+
+}
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color:#fff;
+}
+nav ul.hide{
+    display: none;
+    
+    
+}
+nav a.active{
+    background-color: black;
+    color:white;
+   
+}
+header{
+    text-align: center;
+}
+p{
+    font-family: 'Merriweather', serif;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+main{
+    
+    background-color:#9E2A2B;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+   padding-bottom: 12px;
+}
+
+.home-head{
+    padding: 12px;
+}
+.tour, .tours{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #DA344D;
+    border-bottom: 12px;
+    border-spacing: 10px;
+    padding: 12px;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+footer{
+    background-color:#D91E36 ;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.to{
+    text-align: center;
+}
+
